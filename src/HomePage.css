@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #180876;
+    background-image: linear-gradient(0deg, white, transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container_mini{
+    width: 30%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #180876;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(26, 36, 172, 0.7);
+    background-image: linear-gradient(0deg, white, transparent);
+}
+
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.search_button{
+    background: none;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+.input:enabled{
+    border: none;
+    outline: none;
+}
+
+.input:hover{
+    border: none;
+    outline: none;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.season{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.middle_section{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.middle img{
+    background: none;
+}
+
+.degree{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.place{
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer_container_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.footer_container_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.last{
+    padding: 20px;
+}
+
+.footer_img{
+    width: 25px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.size{
+    font-size: 30px;
+}
